@@ -12,7 +12,7 @@ import java.util.Scanner;
 남은 경기(N)과 현재 승점(S)과 목표 승점(G)이 주어졌을 때,
 남은 경기에서 목표 승점을 넘을 수 있으면 필요한 최소 승수를 없으면 최고 승점을 출력하여라.
  */
-public class Q4 {
+public class Q4a {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int games = scanner.nextInt();
