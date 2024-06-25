@@ -16,5 +16,5 @@ public class Q7a {
             sum += nums[i];
         }
         System.out.println(sum);
+        }
     }
-}
