@@ -10,7 +10,18 @@ import java.util.Scanner;
 public class Qc {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        int cheetah = scanner.nextInt();
+        int distance = scanner.nextInt();
+        int prey = scanner.nextInt();
 
+        int speedDiff = cheetah - prey;
+        int seconds = distance / speedDiff;
+        if (distance % speedDiff != 0) seconds++;
+        if (seconds > 10 || seconds < 0) {
+            System.out.println("꼬르륵");
+        }
+        else {
+            System.out.println(seconds);
+        }
     }
 }
